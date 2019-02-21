@@ -1,0 +1,56 @@
+.product-list {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+.product-list article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product-list article p {
+  color: #999;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.product-list article a {
+  border: 1px solid #998;
+  padding: 5px;
+  margin-top: 20px;
+  color: rgb(39, 64, 202);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.product-list article a:hover {
+  background: rgb(39, 64, 202);
+  color: #fff;
+}
+
+.paginator {
+  display: flex;
+  justify-content: space-between;
+}
+.paginator button {
+  background: red;
+  color: #fff;
+  padding: 5px;
+  border: 1px solid black;
+  font-weight: bold;
+}
+.paginator button:hover {
+  background: #fff;
+  color: red;
+  cursor: pointer;
+}
